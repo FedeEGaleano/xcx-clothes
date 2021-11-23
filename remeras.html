@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XCX CLOTHES ropa sin género, te ofrece las mejores remeras y buzos, al mejor precio. Aprovechá y comprá en 3 y 6 cuotas sin interés. Ofertas y descuentos, hasta el 50% off. Envíos a todo el país.">
+    <meta name="keywords" content="ROPA SIN GENERO , REMERAS , BUZOS , SALE , 50% , CUOTAS SIN INTERES , ENVIOS A TODO EL PAÍS , BAJO COSTO , BARATO , ECONOMICO">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleRemeras.css">
+    <title>REMERAS</title>
+</head>
+<body>
+<!-- BARRA  CARRITO -->
+    <header>
+        <div class="header-section container">
+            <img class="logo" src="images/logoShop.png" alt="">
+            <div>
+                <img onmouseover="showCart(this)" class="cart" src="./images/cart.png" alt="">
+                <p class="count-product">0</p>
+            </div>
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="closeBtn()">X</p>
+                <h3>MI COMPRA</h3>
+                <div class="card-items">
+
+                </div>
+                <h2>Total:  $<strong class="price-total">0</strong><span></span></h2>
+                <button class="finalizar"><a  href="compraFinal.html">FINALIZAR COMPRA</a></button>
+                <br>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+    </header>
+        <!-- INICIO CAROUSEL -->
+        <main id="carousel">
+            <img id='imagen' src='images/carouselbanner.jpg'><br>
+        </main>
+        <!-- FIN CAROUSEL -->
+        <!-- INICIO MENU -->
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light text-dark">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="remeras.html">REMERAS</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="buzos.html">BUZOS</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="sale.html">SALE! 50% OFF</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+        <!-- FIN MENU -->
+    </div>
+    <section class="container">
+        <div class="products">
+            <div class="carts">
+                <div id="resultado">
+                    <img src="images/remera1.png" alt="">
+                    <p>$<span>1200</span></p>
+                </div>
+                <p class="title">REMERA "Social Distance"</p>
+                <a href="" data-id="1" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="images/remera2.png" alt="">
+                    <p>$<span>1200</span></p>                </div>
+                <p class="title">REMERA "Cute Baphomet"</p>
+                <a href="" class="btn-add-cart" data-id="2">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="images/remera3.png" alt="">
+                    <p>$<span>1200</span></p>
+                </div>
+                <p class="title">REMERA "Reading Is Fun"</p>
+                <a href="" data-id="3" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="images/remera4.png" alt="">
+                    <p>$<span>1200</span></p>
+                </div>
+                <p class="title">REMERA "Black MEOWGIC"</p>
+                <a href="" data-id="4" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="images/remera5.png" alt="">
+                    <p>$<span>1500</span></p>
+                </div>
+                <p class="title">REMERA "Cats Are Great"</p>
+                <a href="" data-id="5" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="images/remera6.png" alt="">
+                    <p>$<span>1500</span></p>
+                </div>
+                <p class="title">REMERA "Ying Yang"</p>
+                <a href="" data-id="6" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="images/remera7.png" alt="">
+                    <p>$<span>1500</span></p>
+                </div>
+                <p class="title">REMERA "Osito Cariñosito"</p>
+                <a href="" data-id="6" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="images/remera8.png" alt="">
+                    <p>$<span>1500</span></p>
+                </div>
+                <p class="title">REMERA "Riding a cat"</p>
+                <a href="" data-id="6" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+           
+    </section>
+
+    <footer class="footerFlex">
+        <div >
+            <br>
+            <h4 class="footerFlex__redesSocialesYNewsletter">REDES SOCIALES</h4>
+            <p><span class="icon-instagram"></span>Instagram:@XCXclothes</p> 
+            <p><span class="icon-facebook-square"></span>Facebook:Clothes XCX</p> 
+        </div>
+        <!-- INICIO FORM -->
+        <form class="row g-3">       
+            <div class="col-auto">
+                <h4 class="footerFlex__redesSocialesYNewsletter">NEWSLETTER</h4>
+            </div>
+            <br>
+            <div class="col-auto">
+                <label for="inputPassword2" class="visually-hidden">Email</label>
+                <input type="text" class="form-control" id="staticEmail2" placeholder="INGRESE SU EMAIL">
+                </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-dark suscribirse">SUSCRIBIRSE</button>
+            </div>
+        </form>
+        <!-- FIN FORM -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="js/script.js" ></script>
+    <script src="js/menu.js"></script>
+    <script src="js/compra.js"></script>
+</body>
+</html>

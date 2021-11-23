@@ -1,0 +1,122 @@
+[
+    {
+        "nombre": "Remera: Social Distance",
+        "precio": "$1200",
+        "id": 1
+    },
+    {
+        "nombre": "Remera: Cute Baphomet",
+        "precio": "$1200",
+        "id":2
+    },
+    {
+        "nombre": "Remera: Reading Is Fun",
+        "precio": "$1200",
+        "id":3
+    },
+    {
+        "nombre": "Remera: Black MEOWGIC",
+        "precio": "$1200",
+        "id": 4
+    },
+    {
+        "nombre": "Remera: Cats Are Great",
+        "precio": "$1500",
+        "id":5
+    },
+    {
+        "nombre": "Remera: Ying Yang",
+        "precio": "$1500",
+        "id": 6
+    },
+    {
+        "nombre": "Remera: Osito Carñosito",
+        "precio": "$1500",
+        "id": 7
+    },
+    {
+        "nombre": "Remera: Riding a cat",
+        "precio": "$1500",
+        "id":8
+    },
+    {
+        "nombre": "Remera: Purge the poison",
+        "precio": "$850",
+        "id":9
+    },
+    {
+        "nombre": "Remera: Gaga Monster",
+        "precio": "$900",
+        "id": 10
+    },
+    {
+        "nombre": "Buzo: Cute Hail Satan",
+        "precio": "$2500",
+        "id":11
+    },
+    {
+        "nombre": "Buzo: Gatito Pentagrama",
+        "precio": "$2500",
+        "id": 12
+    },
+    {
+        "nombre": "Buzo: Rayuela",
+        "precio": "$2500",
+        "id": 13
+    },
+    {
+        "nombre": "Buzo: My Three Moods",
+        "precio": "$2500",
+        "id":14
+    },
+    {
+        "nombre": "Buzo: Cats Are Great",
+        "precio": "$3000",
+        "id":15
+    },
+    {
+        "nombre": "Buzo: Purple Satan",
+        "precio": "$3000",
+        "id": 16
+    },
+    {
+        "nombre": "Buzo: Teletubbies",
+        "precio": "$3000",
+        "id":17
+    },
+    {
+        "nombre": "Buzo: Welcome To Chromatica",
+        "precio": "$3000",
+        "id": 18
+    },
+    {
+        "nombre": "Buzo: San La Muerte",
+        "precio": "$1500",
+        "id": 19
+    },
+    {
+        "nombre": "Buzo: Riding a cat",
+        "precio": "$1000",
+        "id": 20
+    },
+    {
+        "nombre": "Piluso: Thunder",
+        "precio": "$800",
+        "id":21
+    },
+    {
+        "nombre": "Piluso: Rainbow",
+        "precio": "$800",
+        "id":22
+    },
+    {
+        "nombre": "SHORT DE BAÑO BB-ANAS",
+        "precio": "$1200",
+        "id":23
+    },
+    {
+        "nombre": "SHORT DE BAÑO SUSHI",
+        "precio": "$1300",
+        "id":24
+    }
+]

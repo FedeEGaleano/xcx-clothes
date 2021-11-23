@@ -1,0 +1,240 @@
+*{
+    font-style: italic;
+    font-family: 'Bebas Neue';
+    text-align: justify;
+    text-transform: capitalize;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+header div div button{
+    background-color: #eaee1f;
+    border: none;
+    font-size: 20px;
+    width: 120px;
+}
+header div div button:hover{
+    background: black;
+    color: #eaee1f;
+    border: solid 2px #eaee1f;
+    transition-duration: .3s;
+}
+.header-section div{
+    position: relative;
+}
+.header-section p{
+    position: absolute;
+    top: -24px;
+    right: -8px;
+    background-color: #fff;
+    padding: 1px 6px;
+    border-radius: 50%;
+    color: rgb(149, 48, 180);
+    font-weight: 700;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    line-height: 18px;
+}
+.logo{
+    width: 213px;
+    height: 84px;
+    cursor: pointer;
+}
+.cart{
+    width: 39px;
+    height: 38px;
+    /* cursor: pointer; */
+}
+.cart-products{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: #212529;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+    min-width: 290px;
+}
+div h3{
+    font-size: 30px;
+    color: rgb(234, 238, 31);
+    background-color: #212529;
+}
+div h2{
+    font-size: 25px;
+    color: #000;
+}
+/* .cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+} */
+.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+/*end header*/
+.products{
+    /* margin-top: 60px; */
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carts{
+    max-width: 250px;
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+}
+.carts img{
+    width: 100%;
+}
+.carts p{
+    font-style: italic;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+.carts div p{
+    font-style: italic;
+    font-family: 'Bebas Neue';
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: #9530b4;
+    color: white;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.carts div{
+    position: relative;
+}
+.carts a{
+    font-style: italic;
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+    background: #eaee1f;
+    padding: 9px 23px;
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carts a:hover{
+    background: black;
+    color: #eaee1f;
+    border: solid 2px #eaee1f;
+    transition-duration: .3s;
+}
+/* .carts a:hover + .cart-products{
+    display: block;
+} */
+/*float cart*/
+.cart-products .item img{
+    width: 115px;
+}
+.card-items :hover{
+    background-color: #9530b4;
+}
+.cart-products .item{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #9530b4;
+    color: #fff;
+}
+.cart-products .item .item-content{
+    margin: 0 19px;
+    width: 201px;
+}
+.cart-products .item .item-content h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item .item-content h6{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item span{
+    background-color: #9530b4;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.cart-products h3{
+    margin-bottom: 0;
+}
+.cart-products .item .item-content h5.cart-price{
+    font-weight: 700;
+}
+
+/*stye to btn close*/
+p.close-btn{
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+header{
+    background-color: #212529;
+    padding: 0%;
+    height: 5%;
+    width: 100%;
+}
+.navFlex {
+    /*background-color: #212529 !important;*/
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: right; 
+}
+li {
+    font-size: 20px;
+    color: black;
+    font-style: normal;
+    font-weight: unset;
+    text-align: right;
+    text-transform: none;
+    line-height: 12px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    list-style-position: inside;
+    /*background-color: #212529;*/
+    padding: 10px; 
+}
+ul li :hover{
+    background-color: #9530b4;
+}
+ul li a {
+    font-size: 22px !important;
+    color: #888d92 !important;
+    height: 30px;
+    line-height: 1;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    background-color:#212529 !important;
+    list-style-type: none; 
+}
+.menu{
+    background-color: #212529 !important;
+    height: 60px;
+}
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
